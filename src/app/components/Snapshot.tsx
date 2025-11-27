@@ -1,7 +1,7 @@
 "use client";
 
 
-export default function Hero() {
+export default function Snapshot() {
   return (
     <>
       <section className="overflow-hidden mx-auto max-w-2xl lg:max-w-7xl pb-24 px-6 lg:px-8 bg-linear-to-b from-white from-50% to-gray-100 py-[100px]">

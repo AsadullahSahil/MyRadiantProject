@@ -1,6 +1,10 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Snapshot from "./components/Snapshot";
+import Sales from "./components/Sales";
+import Outreach from "./components/Outreach";
+import Testimonial from "./components/Testimonial";
+import Footer from "./components/Footer";
 
 export default function HomePage() {
   return (
@@ -45,6 +49,15 @@ export default function HomePage() {
 
       {/* Snapshot Section */}
       <Snapshot />
+
+      {/* Sales Section */}
+      <Sales />
+
+      {/* Outreach Section */}
+      <Outreach />
+
+      {/* Testimonial Section */}
+      <Testimonial />
     </>
   );
 }
